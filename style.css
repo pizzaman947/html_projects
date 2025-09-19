@@ -13,6 +13,7 @@ p {
   .aboutme{
     color: gold;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
   }
   #group{
     color: yellowgreen;
@@ -26,15 +27,66 @@ p {
     color: darkred;
     font-family: "Verdana", sans-serif;
     text-transform: uppercase;
+    font-size: 48px;
   }
   .main-heading{
     background-color: darkorange;
+    padding: 10px;
   }
-  .footer {
+  
+.main-content{
+    background-color: aquamarine;
+    padding: 20px;                  
+    border: 3px solid darkgreen;    
+    margin: 15px;   
+}
+
+.static-box {
+    background: lightblue;
+    padding: 10px;
+    border: 2px solid blue;
+    position: static; 
+}
+
+.relative-box {
+    background: lightgreen;
+    padding: 10px;
+    border: 2px solid purple;
+    position: relative;
+    left: 60px;  
+    top: 20px;    
+}
+.absolute-box {
+    background: lightcoral;
+    padding: 10px;
+    border: 2px solid red;
+    position: absolute;
+    top: 50px;   
+    right: 20px; 
+}
+.img-percent{
+    width: 30%;
+}
+.box-left {
+    width: 200px;
+    height: 100px;
+    background: lightblue;
+    float: left; 
+    padding: 10px;
+    text-align: center;
+}
+.box-right {
+    width: 200px;
+    height: 100px;
+    background: lightgreen;
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+.footer {
     background-color: lightgray;
     padding: 15px;
     text-align: center;
-}
-.main-content{
-    background-color: aquamarine;
+    font-size: 2rem;
+    clear: both;
 }
