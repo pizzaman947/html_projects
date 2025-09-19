@@ -1,0 +1,40 @@
+body{
+    background-color: #FAF3E0;
+    
+  }
+  h1 {
+    font-family: Impact, sans-serif;
+
+}
+p {
+    color: blue;
+    font-family: Arial, sans-serif;
+  }
+  .aboutme{
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #group{
+    color: yellowgreen;
+  }
+  .highlight {
+    color: green;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+  }
+  #main-heading {
+    color: darkred;
+    font-family: "Verdana", sans-serif;
+    text-transform: uppercase;
+  }
+  .main-heading{
+    background-color: darkorange;
+  }
+  .footer {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+.main-content{
+    background-color: aquamarine;
+}
